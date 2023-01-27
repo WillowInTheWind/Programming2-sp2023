@@ -6,3 +6,4 @@ def sum_of_numbers(number_1, number_2):
 
 sum_of_numbers(float(input("Give a number ")), float(input("Give another number ")))
 
+print("WHAT THE FUCK IS AN ASSERTION ERROR")
