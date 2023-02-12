@@ -4,15 +4,33 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Recipe Book</title>
+	<style type="text/css">
+		img {
+			width:15%;
+		}
+		/*#Scallops {
+			border: 3px solid #555;
+		}
+		#Burrata {
+			border: 3px solid #555;
+		}
+		#Lamb {
+			border: 3px solid #555;
+		}*/
+	</style>
 </head>
 <body>
-		<img src = "Lamb.png">
-
 	<h1>Recipe List:</h1>
 	<ul>
-		<li><a href = ./pages/Scallop_crudo.html>Citrus-y Scallop Crudo</a></li>
-		<li><a href = "./pages/Burrata.html">Grilled Peach Burrata</a></li>
-		<li><a href = ./pages/Seared_lamb_chops.html>Seared lamb chops, with a blood orange, fennel, arugula salad and a Tzatziki sauce</a></li>
+		<div id = "Scallops">
+		<li><div id = "img1"><img src = "Crudo.png"><a href = ./pages/Scallop_crudo.html><div id = "text1">Citrus-y Scallop Crudo</div></a></li>
+		</div>
+		<div id = "Burrata">
+		<li><a href = "./pages/Burrata.html"><img src ="Burratta.png"><figcaption>Grilled Peach Burrata</figcaption></a></li>
+		</div>
+		<div id = "Lamb">
+		<li><a href = ./pages/Seared_lamb_chops.html><img src = "lamb.png"><figcaption>Seared lamb chops, salad, and Tzatziki</figcaption></a></li>
+		</div>
 	</ul>
 </body>
 </html>
