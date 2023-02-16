@@ -1,0 +1,32 @@
+/*{
+}
+p {
+	color: #110f68;
+	background-color: red;
+	border: 9px solid #234;
+	text-align: center;
+	rotate: 200deg;
+}
+
+body {
+	background-color: blue;
+}
+
+h1 {
+	color: white;
+	text-align: right;
+}
+*/
+
+.service-change {
+	font-weight: bold;
+	color: red;
+}
+
+.normal-service {
+	color: lightgreen;
+}
+
+.all-trains{
+	font-size: 25px;
+}
