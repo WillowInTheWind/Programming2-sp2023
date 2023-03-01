@@ -1,0 +1,45 @@
+.redbackground {
+	background-color: lightpink;
+	font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#id1 {
+	font-size: 36px;
+	color: blue;
+}
+
+.biggertext {
+	font-size: 24px;
+}
+
+#id2 {
+	font-size: 24px;
+	background-color: lightgreen;
+	font-weight: bold;
+}
+
+.borderdotted {
+	border: dotted 3px black;
+}
+
+.redborderdotted {
+	border: dotted 3px red;
+}
+
+#id4 {
+	font-family: "Rubik Iso";
+/*	rotate: 80deg;*/
+}
+
+#id3 {
+	font-family: 'Amatic SC';
+	font-size: 36px;	
+}
+
+#id5 {
+	font-family: 'Unica One';
+}
+
+#id6 {
+	font-family: 'Major Mono Display';
+}

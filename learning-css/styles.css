@@ -18,7 +18,7 @@ h1 {
 }
 */
 
-.service-change {
+.service-change{
 	font-weight: bold;
 	color: red;
 }
@@ -30,3 +30,4 @@ h1 {
 .all-trains{
 	font-size: 25px;
 }
+

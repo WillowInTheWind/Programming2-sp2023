@@ -2,8 +2,15 @@ div {
 	background-color: red;
 	color: white;
 	text-align: center;
-	font-size: 25px;
+	font-size: 32px;
     position: relative;
     margin-top: 25%;
 }
 
+#myGreatButton {
+	background-color: blue;
+}
+
+.alert-text {
+	
+}
