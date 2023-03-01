@@ -43,3 +43,17 @@
 #id6 {
 	font-family: 'Major Mono Display';
 }
+
+
+h1, h2, h3 {
+	color: hotpink;
+/*	background-color: blue;*/
+}
+
+h2 {
+/*	background-color: honeydew;*/
+}
+
+h1 {
+	font-family: cursive;
+}
