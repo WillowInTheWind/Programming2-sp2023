@@ -1,0 +1,16 @@
+.Click {
+	background-color: black;
+	color: white;
+}
+.No-Click {
+	background-color: yellow;
+}
+
+#id2, p, .Click, .No-Click {
+	font-size: 28px;
+	font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+#id2 {
+	border-width: 2px;
+}

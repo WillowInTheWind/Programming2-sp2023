@@ -1,0 +1,37 @@
+* {
+	--a-height: 700px;
+	--a-width: 1050px;
+	--b-height: 550px;
+	--b-width: 700px;
+	--c-height: 350px;
+	--c-width: 550px;
+	--border-thickness: 25px;
+	--margin-l: calc((var(--a-width) - (2 * var(--border-thickness)) - var(--b-width))/2);
+	--margin-t: calc((var(--a-height) - (2 * var(--border-thickness)) - var(--b-height))/2);
+	--padding-t: calc((var(--a-height) - (var(--border-thickness) * 2) - var(--margin-t) - var(--margin-t) - var(--c-height))/2);
+	--padding-l:calc((var(--a-width) - (var(--border-thickness) * 2) - var(--margin-l) - var(--margin-l) - var(--c-width))/2);;
+}
+
+#content {
+	width: var(--c-width);
+	height: var(--c-height);
+	background-color: red;
+	padding-left: var(--padding-l);
+	padding-right: var(--padding-l);
+	padding-top: var(--padding-t);
+	padding-bottom: var(--padding-t);
+	border: dashed var(--border-thickness) green;
+	margin-left: var(--margin-l);
+	margin-right: var(--margin-l);
+	margin-top: var(--margin-t);
+	margin-bottom: var(--margin-t);
+
+}
+
+.container {
+	width: var(--a-width);
+	height: var(--a-height);
+	background-color: blue;
+}
+
+
