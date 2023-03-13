@@ -1,0 +1,32 @@
+img {
+	width:50%;
+}
+.recipe-list {
+	display: inline-block;
+	margin: 10px;
+	width: 25%;
+	border: black 2px solid;
+	padding: 20px;
+}
+
+.recipe-link {
+	text-decoration: none;
+	color: black;
+}
+
+.recipe-link:hover {
+	text-decoration: underline	;
+}
+
+.recipe-list:hover {
+	  filter: sepia(25%);
+}
+
+#Table-of-contents {
+	text-align: center;
+}
+* {
+	background-color: #a8a8a8;
+}
+
+
