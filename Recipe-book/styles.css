@@ -3,11 +3,12 @@ img {
 }
 
 .recipe-list {
-	display: inline-block;
 	margin: 10px;
 	width: 25%;
 	border: black 2px solid;
+	border-radius: 5px;
 	padding: 20px;
+	transition: transform .5s ease;
 }
 
 .recipe-link {
@@ -15,43 +16,49 @@ img {
 	color: black;
 }
 
-.recipe-link:hover {
+.recipe-list:hover {
 	text-decoration: underline	;
-	filter: sepia(25%);
 	font-weight: bold;
+	background-color: gray;
+	transform: translateY(-10px);
 }
 
 #Table-of-contents {
 	text-align: center;
 	display: flex;
 	justify-content: space-evenly;
-	
+	margin: 5px;
 }
 body {
 	background-color: #a8a8a8;
 	font-family: Montserrat, Lato, 'Times New Roman';
+	
 }
 
 blockquote {
 	margin: 0;
 }
+.line {
+	border: black 2px solid;
+	margin-top: 5px;
+}
+body {
+	margin: 0px;
+}
 
 blockquote p {
 	padding: 15px;
+	font-family: inter, lato, 'Times New Roman';
 	background: #eee;
 	border-radius: 5px;
 }
-/* .recipe-image {
-	width: 290px;
-	height: auto;
-	float:left;
-} */
-h3 {
+
+h1, h2, h3 {
 	margin: 0px;
 	padding: 0px;
 }
 .Ingredients {
-	margin-left: 300px;
+	margin-left: 10px;
 }
 
 #Instructions {
@@ -74,4 +81,36 @@ h3 {
 
 .center {
 	text-align: center;
+	margin: 10px;
 }	
+
+.spacing{
+	margin: 20px;
+}
+.Image-flex {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+/* .Directions {
+	background-color: white;
+	padding: 10px;
+	width: 500px;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+.Direction-Header {
+	text-align: center;
+	background-color: lightblue;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.Steps {
+	background-color: lightblue;
+	padding: 30px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+} */
+
