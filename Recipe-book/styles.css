@@ -1,6 +1,7 @@
 img {
 	width:50%;
 }
+
 .recipe-list {
 	display: inline-block;
 	margin: 10px;
@@ -25,8 +26,47 @@ img {
 #Table-of-contents {
 	text-align: center;
 }
-* {
+body {
 	background-color: #a8a8a8;
+	font-family: Montserrat, Lato, 'Times New Roman';
 }
 
+blockquote {
+	margin: 0;
+}
 
+blockquote p {
+	padding: 15px;
+	background: #eee;
+	border-radius: 5px;
+}
+.recipe-image {
+	width: 290px;
+	length: auto;
+	float:left;
+}
+h3 {
+	margin: 0px;
+	padding: 0px;
+}
+.Ingredients {
+/*    		float:right;*/
+	margin-left: 300px;
+}
+
+#Instructions {
+	padding: 30px;
+}
+
+#Directions {
+	font-size: 18px;
+}
+
+.Description {
+	margin: 30px;
+	border: 3px wheat solid;
+	padding: 15px;
+	background-color: wheat;
+	border-radius: 5px;
+	width: 675px;
+}
