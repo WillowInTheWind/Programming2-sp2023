@@ -17,14 +17,15 @@ img {
 
 .recipe-link:hover {
 	text-decoration: underline	;
-}
-
-.recipe-list:hover {
-	  filter: sepia(25%);
+	filter: sepia(25%);
+	font-weight: bold;
 }
 
 #Table-of-contents {
 	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	
 }
 body {
 	background-color: #a8a8a8;
@@ -40,17 +41,16 @@ blockquote p {
 	background: #eee;
 	border-radius: 5px;
 }
-.recipe-image {
+/* .recipe-image {
 	width: 290px;
-	length: auto;
+	height: auto;
 	float:left;
-}
+} */
 h3 {
 	margin: 0px;
 	padding: 0px;
 }
 .Ingredients {
-/*    		float:right;*/
 	margin-left: 300px;
 }
 
@@ -58,8 +58,9 @@ h3 {
 	padding: 30px;
 }
 
-#Directions {
+.Directions {
 	font-size: 18px;
+	display: block;
 }
 
 .Description {
@@ -70,3 +71,7 @@ h3 {
 	border-radius: 5px;
 	width: 675px;
 }
+
+.center {
+	text-align: center;
+}	
