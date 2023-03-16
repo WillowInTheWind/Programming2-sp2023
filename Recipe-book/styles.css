@@ -1,3 +1,12 @@
+/* Utitlity classes */
+.long {
+	--length-of-line: 100%;
+}
+
+.short {
+	--length-of-line: 50%;
+}
+
 img {
 	width:50%;
 }
@@ -15,6 +24,9 @@ img {
 	text-decoration: none;
 	color: black;
 }
+.rounding {
+	border-radius: 5px;
+}
 
 .recipe-list:hover {
 	text-decoration: underline	;
@@ -29,7 +41,7 @@ img {
 	justify-content: space-evenly;
 	margin: 5px;
 }
-body {
+.body-styling {
 	background-color: #a8a8a8;
 	font-family: Montserrat, Lato, 'Times New Roman';
 	
@@ -41,6 +53,8 @@ blockquote {
 .line {
 	border: black 2px solid;
 	margin-top: 5px;
+	max-width: var(--length-of-line);
+	margin: 2px;
 }
 body {
 	margin: 0px;
@@ -77,6 +91,7 @@ h1, h2, h3 {
 	background-color: wheat;
 	border-radius: 5px;
 	width: 675px;
+	height: auto;
 }
 
 .center {

@@ -5,19 +5,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel = "stylesheet" href = "../styles.css"> 
 	<title>Burrata</title>
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<body class = "spacing">
-	<!-- <div class="navbar">
-		<div class="navbar-inner">
-		  <a class="brand" href="#">Burrata</a>
-		  <ul class="nav">
-			<li class="active"><a href="#">Recipes</a></li>
-			<li><a href="#">Seared Lamb Chops</a></li>
-			<li><a href="#">Scallop Crudo</a></li>
-		  </ul>
+<body class = "spacing body-styling">
+	<nav class="navbar navbar-expand-lg bg-body-tertiary spacing rounding">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Recipes</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				<a class="nav-link active" aria-current="page" href="../index.html">Recipe List</a>
+				<a class="nav-link" href="Seared_lamb_chops.html">Seared Lamb</a>
+				<a class="nav-link" href="Scallop_crudo.html">Scallop Crudo</a>
+				<a class="nav-link" href="Burrata.html">Burratta</a>
+				</div>
+			</div>
 		</div>
-	  </div> -->
+	</nav>
 	<h1>Grilled Peach Burrata</h1>
 	<div class = "Description">
 		<!-- <h3>Description:</h3> -->
@@ -27,6 +33,7 @@
 	<div class = "Image-flex">
 		<img class = "recipe-image" src = "../Burratta.png">
 		<div class = "Ingredients">
+			<div class = "line short"></div>
 			<p><h3>Ingredients</h3></p>
 			<ul>
 				<li>2 whole Peaches</li>
@@ -43,6 +50,7 @@
 	</div>
 	<div id = "Instructions">
 		<blockquote><p>&#128161; Tip: This is a recipe all about personal prefrence, adjust these numbers as you see fit!</p></blockquote>
+		<div class = "line short"></div>
 		<h3>Directions</h3>
 		<ol>
 			<div id = "Directions">
@@ -56,5 +64,6 @@
 			</div>
 		</ol>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
