@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT</title>
+    <link rel="stylesheet" href="./flex4.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="top-links">
+        <ul class="left-links">
+          <a class = "former-link"  href="#">About</a></li>
+          <a href="#">Store</a></li>
+        </ul>
+        <ul class="right-links">
+          <a class = "former-link" href="#">Profile</a></li>
+          <a href="#">Settings</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <img src="https://images.squarespace-cdn.com/content/v1/5c08276ada02bc6f72ea0cfe/1594373937107-9TY8XMZIBBN8TAT817ZR/logo+design" >
+      <div class="input">
+        <input id="search-bar-input" type="text" onblur="getVal()">
+      </div>
+      <div class="buttons">
+        <button>Search Query on google</button>
+        <button>Do the other thing!</button>
+      </div>
+    </div>
+    <div class="footer">
+      <ul class="left-links">
+        <a class = "former-link" href="#">Advertising</a></li>
+        <a href="#">Business</a></li>
+      </ul>
+      <ul class="right-links">
+        <a class = "former-link" href="#">Privacy</a></li>
+        <a href="#">Terms</a></li>
+      </ul>
+      <script>
+        const btn = document.querySelector('button')
+
+        btn.onclick = () => {
+          var x = document.getElementById("search-bar-input").value;
+          alert('You tried to search ' + x  + ' but this isnt google');
+        }
+        
+      </script>
+    </div>
+  </body>
+</html>
