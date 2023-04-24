@@ -1,0 +1,62 @@
+.background {
+    background-color: black;
+}
+
+.Playspace {
+    background-color: olive;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px white solid;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.Start {
+    margin: 150px;
+}
+
+.button {
+    padding: 50px;
+    padding-right: 75px;
+    padding-left: 75px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.UI{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play {
+    margin-left: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.Card {
+    height: 350px;
+}
+
+.reset {
+    display: none;
+}
+
+.total {
+    background: lightgray;
+    border-radius: 50%;
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+}
