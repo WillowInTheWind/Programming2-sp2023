@@ -41,23 +41,32 @@
    </div>
     <div class = "Playspace">
         <div class = "Cpu UI">
-            <div class = "circle total"></div>
-            <div class = "CPU Cards">
-                   <img class = "CPU Card" src = "https://images.squarespace-cdn.com/content/v1/5abd8db4620b85fa99f15131/1542340353238-X6FLM9W9EAXMT9R2V4NC/Queen+-+Spades_shw.png">
-                    <img class = "CPU Card" src = "https://images.squarespace-cdn.com/content/v1/5abd8db4620b85fa99f15131/1542340353238-X6FLM9W9EAXMT9R2V4NC/Queen+-+Spades_shw.png">
-                </div>
-                <button onclick = 'reset()' class = "reset">Reset</button>
+            <div class = "circle total">
+                <h1 id = 'dealer-sum' class = 'sum'></h1>
             </div>
-            <button onclick = 'reset()'  class = "Start button">Start game</button>
+            <div class = "CPU Cards">
+                    <!-- <img class = "CPU Card" src = "https://images.squarespace-cdn.com/content/v1/5abd8db4620b85fa99f15131/1542340353238-X6FLM9W9EAXMT9R2V4NC/Queen+-+Spades_shw.png">
+                    <img class = "CPU Card" src = "https://images.squarespace-cdn.com/content/v1/5abd8db4620b85fa99f15131/1542340353238-X6FLM9W9EAXMT9R2V4NC/Queen+-+Spades_shw.png"> -->
+                    <h2 id = 'dealer-cards'>Dealer cards: </h2>
+                </div>
+                <button id = 'reset' onclick = 'reset()' class = "reset">Reset</button>
+            </div>
+            <div id = 'start_button'>
+                <button id = 'start' onclick = 'reset()'  class = "Start button">Start game</button>
+            </div>
             <div class = "Player UI">
-                <div class = "circle total"></div>
+                <div class = "circle total">
+                    <h1 id = 'user-sum' class = 'sum'></h1>
+                </div>
                 <div class = "Player Cards">
-                    <img class = "Player Card" src = "https://images.squarespace-cdn.com/content/v1/5abd8db4620b85fa99f15131/1542340353238-X6FLM9W9EAXMT9R2V4NC/Queen+-+Spades_shw.png">
-                    <img class = "Player Card" src = "https://images.squarespace-cdn.com/content/v1/5abd8db4620b85fa99f15131/1542340353238-X6FLM9W9EAXMT9R2V4NC/Queen+-+Spades_shw.png">
+                    <!-- <img class = "Player Card" src = "https://images.squarespace-cdn.com/content/v1/5abd8db4620b85fa99f15131/1542340353238-X6FLM9W9EAXMT9R2V4NC/Queen+-+Spades_shw.png">
+                    <img class = "Player Card" src = "https://images.squarespace-cdn.com/content/v1/5abd8db4620b85fa99f15131/1542340353238-X6FLM9W9EAXMT9R2V4NC/Queen+-+Spades_shw.png"> -->
+                    <h2 id = 'user-cards'>Your cards: </h2>
+
                 </div>
                 <div class = "buttons">
-                    <button onclick = 'hit()' class = "play button">Hit</button>
-                    <button onclick = 'stay()' class = "play button">Stay</button>
+                    <button id = 'hit' onlick = '' class = "play button">Hit</button>
+                    <button id = 'stay' class = "play button">Stay</button>
             </div>
         </div>
     </div>
