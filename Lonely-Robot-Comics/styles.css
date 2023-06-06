@@ -1,0 +1,162 @@
+/* Stuff that Works */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    position: fixed;
+    top: 0;
+    background-color: #f39f00;
+    width: 100%;
+    padding: 10px;
+    z-index: 2;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #303030;
+    position: relative;
+    bottom: 0;
+}
+ul{
+    margin-bottom: 0px; 
+}
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+    color: #a6a6a6;
+}
+.icon {
+    width: 3%;
+  }
+  
+  .navlinks {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .navlink {
+    margin-left: 15px;
+    color: white;
+  }
+  .navlink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+.body2 {
+    /* height:100vh; */
+    z-index:1;
+    background-color: white;
+    justify-content: space-between;
+}
+.banner {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;   
+    background-color: #f39f00;
+    padding: 36px; 
+    border-radius: 10px;
+}
+.banner a {
+    opacity: 100%;
+    color:black;
+}
+.banner a:hover {
+    text-decoration: underline;
+}
+.Buisness {
+    color: #a6a6a6;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.Issuescontainer {
+    display: flex;
+    width: 100%;
+    height: 45%;
+    justify-content: space-around;
+}
+.Reedemersred {
+    background-color: #bc0300;
+}
+
+.Comic {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+}
+.Comic img {
+    box-shadow:5px 3px 10px gray;
+}
+
+.issuecover {
+    width:100%
+}
+
+.caption {
+    margin: auto;
+}
+
+
+
+/* Stuff that Doesn't */
+.text2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.Placeholder {
+    opacity: 1;
+    overflow: hidden;
+    max-width: 10%; 
+}
+.column {
+    flex-shrink: 0;
+    width: 40%;
+    height: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.positionfix {
+    margin-bottom: 20px;
+    margin-right:20px;
+}
+.paneltext {
+    padding: 10px;
+}
+.body2 {
+    padding-top: 60px;
+}
+.frontpage {
+    display: flex;
+    justify-content: space-evenly;
+}
+.snapshot {
+    overflow: hidden;
+    flex-shrink: 0;
+    min-width: 20%;
+    max-height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.snapshot img {
+    min-width: 100%;
+    min-height: 100%;
+}
