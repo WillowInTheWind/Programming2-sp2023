@@ -154,6 +154,7 @@ ul{
     padding-top: 40px;
 }
 .frontpage {
+    margin-top: 25px;
     display: flex;
     justify-content: space-evenly;
     overflow: hidden;
@@ -223,3 +224,82 @@ ul{
     box-shadow: 2px 3px 3px gray;
 }
 
+.blogpost {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+.blogpost a {
+    text-align: center;
+    font-size: 32px;
+    /* text-decoration: none; */
+    margin: 0px;
+}
+.blogpost:hover {
+    background-color: rgb(2,2,2,.2);
+
+}
+
+.blogpost p {
+    text-align: center;
+    padding: 5px;
+}
+
+.blogpost img {
+    margin: 5px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+
+#blogpost {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+    margin: 3%;
+    overflow: scroll;
+    position: fixed;
+    width: 94%;
+    height:500px;
+    z-index: 2;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+#blogpost .subtitle {
+    font-size: 10px;
+}
+
+#blogpost img {
+    max-height: 40%;
+}
+
+#close {
+    margin-left:5px;
+    padding: 0;
+    position: absolute;
+    color: #aaa;
+    left: 0;
+    top: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
