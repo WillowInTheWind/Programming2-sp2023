@@ -13,7 +13,7 @@ a {
     background-color: #f39f00;
     width: 100%;
     padding: 10px;
-    z-index: 2;
+    z-index: 3;
 }
 .footer {
     bottom: 0;
@@ -39,27 +39,25 @@ ul{
 }
 .icon {
     width: 3%;
-  }
+}
   
-  .navlinks {
+.navlinks {
     display: flex;
     justify-content: space-evenly;
-  }
+}
   
-  .navlink {
+.navlink {
     margin-left: 15px;
     color: white;
-  }
-  .navlink:hover {
+}
+.navlink:hover {
     cursor: pointer;
     text-decoration: underline;
-  }
+}
 
 .body2 {
-    /* height:100vh; */
     z-index:1;
     background-color: white;
-    /* justify-content: space-between; */
 }
 .banner {
     width:100%;
@@ -69,7 +67,9 @@ ul{
     font-size: 36px;   
     background-color: #f39f00;
     padding: 36px; 
-    border-radius: 10px;
+    border-bottom-right-radius: 25px;
+    margin-bottom:25px;
+    margin-top: 25px;
 }
 .banner a {
     opacity: 100%;
@@ -97,6 +97,7 @@ ul{
 }
 
 .Comic {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 150px;
@@ -115,15 +116,11 @@ ul{
     margin: auto;
 }
 
-
-
-/* Stuff that Doesn't */
-
 .text2 {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .Placeholder {
     opacity: 1;
@@ -138,6 +135,12 @@ ul{
     justify-content: center;
     align-items: center;
 }
+.subtext {
+    position: absolute;
+    align-self: center;
+    z-index: 0;
+    text-align: center;
+}
 
 .positionfix {
     margin-bottom: 20px;
@@ -148,7 +151,7 @@ ul{
     font-size: 25px;
 }
 .body2 {
-    padding-top: 60px;
+    padding-top: 40px;
 }
 .frontpage {
     display: flex;
@@ -174,18 +177,49 @@ ul{
     margin: 0px;
 }
 
-/* .issuecover:hover {
-    opacity: 20%;
-} */
 
-.subtext {
+#homepage .issuecover:hover{
+    opacity: 10%;
+}
+.artcaption {
     position: absolute;
     align-self: center;
-    padding:10%;
-    z-index: 0;
+    color: white;
+    font-size: 50px;
+    z-index: 1;
+    text-shadow:black 1px 0 10px;;
     text-align: center;
 }
 
-.issuecover:hover{
-    opacity: 10%;
+.artfeature {
+    filter: brightness(40%);
+    z-index: 0;
+    flex-shrink: 0;
+    width:100%;
+    min-height: 100%;
 }
+.featuredart {
+    flex-shrink: 0;
+    height: 300px;
+    overflow: hidden;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#homepage .artfeature:hover {
+    filter: brightness(100%);
+    z-index: 2;
+}
+
+#Redeemers .Issuescontainer {
+    margin-top: 50px;
+}
+
+#Redeemers .featuredart {
+    height: 500px;
+    align-items: center;
+    box-shadow: 2px 3px 3px gray;
+}
+
